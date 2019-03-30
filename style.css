@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0% 15% 0% 15%;
+
+}
+#highlight {
+    color: #5e0aa6;
+}
+#title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4vh;
+    text-align: center;
+    color: #5e0aa6;
+    width: 35%;
+    position: absolute;
+    transform: translate(50%, 20%);
+    left: 12%;
+    bottom: 25%;
+    line-height: 1.8em;	text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+#header {
+    display: flex;
+    margin: 0% 1% 0% 0%;
+    flex-flow: column nowrap;
+    height: 48vh;
+    position: relative;
+    transform: translate(0.6%, 0);
+}
+
+.header-img {
+    height: 130%;
+}
+
+#main {
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+#bio {
+    margin-top: 10%;
+    width: 70%;
+    font-size: 2.3vh;
+    font-weight: 800
+}
+
